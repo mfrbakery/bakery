@@ -1,4 +1,9 @@
 <div class="users form">
+<?php
+// in your view file
+$this->Html->script('bake', array('inline' => false));
+$this->Html->css('bake', null, array('inline' => false));
+?>
 <?php echo $this->Form->create('User');?>
 	<fieldset>
 		<legend><?php echo __('Add User'); ?></legend>

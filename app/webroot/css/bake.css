@@ -532,7 +532,7 @@ input[type=submit],
 }
 .actions ul li a:hover,
 .actions a:hover {
-	background: #ededed;
+	background: #98F5F3;
 	border-color: #acacac;
 	text-decoration: none;
 }

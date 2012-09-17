@@ -1,4 +1,9 @@
 <div class="images form">
+<?php
+// in your view file
+$this->Html->script('bake', array('inline' => false));
+$this->Html->css('bake', null, array('inline' => false));
+?>
 <?php echo $this->Form->create('Image', array('type' => 'file'));?>
 	<fieldset>
 		<legend><?php echo __('Add Image'); ?></legend>

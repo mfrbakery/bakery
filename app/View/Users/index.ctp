@@ -1,4 +1,9 @@
 <div class="users index">
+<?php
+// in your view file
+$this->Html->script('bake', array('inline' => false));
+$this->Html->css('bake', null, array('inline' => false));
+?>
 	<h2><?php echo __('Users');?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
